@@ -1,0 +1,111 @@
+/*!
+ * Maker:Ahmedbaig;
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:300px) {
+    .navbar {
+        padding: 7px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: transparent!important;
+        text-decoration: none;
+        border-color: transparent!important;
+        background-color: black;
+        opacity: 0.8;
+        filter: alpha(opacity=40);
+    }
+
+
+
+}
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+/*my css*/
+    .top-nav-collapse {
+        padding: 9px;
+        background-color: black!important;
+    }
+
+.navbar-nav{
+    float: right!important;
+}
+.btn{
+    border-radius: 4px!important;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+    border-radius: 9px;
+    border: 1px solid white !important;
+}
+
+.navbar-inverse #logo{
+    position: fixed!important;
+    top: 0!important;
+
+}
+
+.navbar-inverse .navbar-toogle{
+    position: fixed!important;
+    top: 0!important;
+    clear: both;
+}
+
+    .top-nav-collapse {
+        padding: 3px!important;
+        background-color: black!important;
+    }
+
+.navbar-nav{
+    float: right!important;
+}
+
+#logo{
+  position: fixed;
+  padding-top: 1px;
+  top: 0;
+}
